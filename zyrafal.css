@@ -7,7 +7,8 @@ html, body {
 
 nav {
     background-color: #404040;
-    overflow: hidden;
+    overflow-x: scroll
+    overflow-y: hidden;
 }
 
 nav > a {
@@ -27,6 +28,7 @@ nav > a.active {
     background-color: #409fff;
 }
 
+/*
 nav > a.hamburger {
     display: none;
 }
@@ -37,7 +39,8 @@ nav > a.hamburger {
     }
 
     nav > a.hamburger {
-        align-content: right;
-        display: block-inline;
+        float: right;
+        display: block;
     }
 }
+*/
