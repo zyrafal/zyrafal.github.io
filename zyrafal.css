@@ -12,7 +12,7 @@ nav {
 }
 
 nav > a {
-    display: table-cell;
+    display: inline-block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -28,19 +28,7 @@ nav > a.active {
     background-color: #409fff;
 }
 
-/*
-nav > a.hamburger {
-    display: none;
+.background {
+    background-image: url("nevermined.png");
+    background-attachment: fixed;
 }
-
-@media screen and (max-width: 600px) {
-    nav > a:not(.active) {
-        display: none;
-    }
-
-    nav > a.hamburger {
-        float: right;
-        display: block;
-    }
-}
-*/
