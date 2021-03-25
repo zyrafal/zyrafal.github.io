@@ -1,5 +1,17 @@
 html, body {
-    margin: 10px;
+    margin: 0px;
     font-family: Verdana, sans-serif;
-    text-align: center;
+}
+
+.page {
+    border: 0;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+}
+
+.keyboard {
+    top: 50%;
+    position: absolute;
 }
