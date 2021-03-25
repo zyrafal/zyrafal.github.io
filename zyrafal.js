@@ -1,4 +1,6 @@
 function openWebsite() {
     var urlInput = document.getElementById("input");
-    window.open(urlInput.value, "_self");
+    if (urlInput.checkValidity()) {
+        window.open(urlInput.value, "_self");
+    }
 };
