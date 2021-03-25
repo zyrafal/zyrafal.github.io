@@ -1,34 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 10px;
     font-family: Verdana, sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-}
-
-nav {
-    background-color: #404040;
-    overflow-x: scroll
-    overflow-y: hidden;
-}
-
-nav > a {
-    display: inline-block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    white-space: nowrap;
-}
-
-nav > a:hover {
-    background-color: #202020;
-}
-
-nav > a.active {
-    background-color: #409fff;
-}
-
-.background {
-    background-image: url("nevermined.png");
-    background-attachment: fixed;
+    text-align: center;
 }
